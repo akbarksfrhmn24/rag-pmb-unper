@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Bagaimana cara mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Untuk mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya, silakan ikuti prosedur pendaftaran resmi melalui website resmi universitas atau datang langsung ke loket pendaftaran.",
+    "ground_truth_docs": []
+  },
+  {
+    "question": "Kapan jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya biasanya dimulai pada awal tahun untuk periode tahun akademik berikutnya.",
+    "ground_truth_docs": []
+  },
+  {
+    "question": "Berapa biaya kuliah di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Biaya kuliah di Universitas Perjuangan Tasikmalaya bervariasi berdasarkan program studi yang dipilih. Untuk informasi lebih detail, silakan cek informasi biaya kuliah di website resmi universitas.",
+    "ground_truth_docs": []
+  },
+  {
+    "question": "Apa saja program studi yang tersedia di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Universitas Perjuangan Tasikmalaya menawarkan berbagai program studi di berbagai fakultas. Untuk daftar lengkap program studi, silakan cek informasi di website resmi universitas.",
+    "ground_truth_docs": []
+  },
+  {
+    "question": "Bagaimana prosedur pembayaran biaya kuliah di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Pembayaran biaya kuliah di Universitas Perjuangan Tasikmalaya dapat dilakukan melalui bank-bank yang telah bekerja sama dengan universitas. Detail prosedur pembayaran dapat ditemukan di panduan mahasiswa baru.",
+    "ground_truth_docs": []
+  }
+]

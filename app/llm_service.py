@@ -1,26 +1,31 @@
-# app/llm_service.py
-import subprocess
+from openai import OpenAI
+from app.config import OPENAI_API_KEY
+from app.config import GITHUB_API_KEY
+import os
 
-def query_ollama(prompt: str) -> str:
+# Set your OpenAI API key from config.py
+client = OpenAI(
+    base_url="https://models.inference.ai.azure.com",
+    api_key=GITHUB_API_KEY,
+)
+
+def query_openai(prompt: str) -> str:
     """
-    Query the locally installed Ollama LLM using CLI.
-    
-    This function invokes the Ollama CLI (e.g., via `ollama run llama3.2:3b "<prompt>"`)
-    and captures the output. Make sure that the Ollama CLI is installed and in the PATH.
-    
-    Adjust the model name and CLI arguments as needed.
+    Query the OpenAI API using the o3-mini model.
+    Adjust parameters like temperature or max_tokens as needed.
     """
-    model_name = "llama3.2:3b"  # load llama3.2:3b model
     try:
-        # Construct the command.
-        # Example: ollama run llama-3.2 "prompts here"
-        command = ["ollama", "run", model_name, prompt]
-        # Run the command and capture output.
-        result = subprocess.run(command, capture_output=True, text=True, check=True)
-        output = result.stdout.strip()
-        if not output:
-            raise ValueError("No output received from Ollama CLI.")
-        return output
-    except subprocess.CalledProcessError as e:
-        # Include stderr in the error message for debugging.
-        raise RuntimeError(f"Ollama CLI call failed: {e.stderr}") from e
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=1,
+            max_tokens=4096,
+            top_p=1,
+            # max_completion_tokens=200,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        raise RuntimeError(f"OpenAI API request failed: {e}")
