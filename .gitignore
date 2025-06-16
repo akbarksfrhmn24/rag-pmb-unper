@@ -2,3 +2,8 @@ __pycache__
 data
 data/chroma_db
 uploads
+
+# Environment files
+.env
+.env.local
+.env.production
