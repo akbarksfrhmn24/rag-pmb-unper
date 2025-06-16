@@ -1,0 +1,25 @@
+{
+  "question": "Kapan jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
+  "generated_answer": "Jadwal Penerimaan Mahasiswa Baru (PMB) Universitas Perjuangan Tasikmalaya Tahun Akademik 2025/2026 adalah sebagai berikut:\n\n**Gelombang 1**  \n- **Pendaftaran**: 01 Februari – 02 Mei 2025  \n- **Seleksi**: 03 & 04 Mei 2025  \n- **Pengumuman Hasil Seleksi**: 05 Mei 2025  \n\n**Gelombang 2**  \n- **Pendaftaran**: 06 Mei – 18 Juli 2025  \n- **Seleksi**: 19 & 20 Juli 2025  \n- **Pengumuman Hasil Seleksi**: 21 Juli 2025  \n\n**Gelombang 3**  \n- **Pendaftaran**: 29 Juli – 22 Agustus 2025  \n- **Seleksi**: 23 & 24 Agustus 2025  \n- **Pengumuman Hasil Seleksi**: 25 Agustus 2025",
+  "expected_answer": "Jadwal Penerimaan Mahasiswa Baru Universitas Perjuangan Tasikmalaya Tahun Akademik 2025/2026 adalah sebagai berikut:Gelombang 1 \n- Pendaftaran: 01 Februari – 02 Mei 2025  \n- Seleksi: 03 & 04 Mei 2025  \n- Pengumuman Hasil Seleksi: 05 Mei 2025  \n- Daftar Ulang: 05 Mei – 12 Juli 2025  \n\n Gelombang 2 \n- Pendaftaran: 06 Mei – 18 Juli 2025  \n- Seleksi: 19 & 20 Juli 2025  \n- Pengumuman Hasil Seleksi: 21 Juli 2025  \n- Daftar Ulang: 21 Juli – 16 Agustus 2025  \n\n Gelombang 3 \n- Pendaftaran: 29 Juli – 22 Agustus 2025  \n- Seleksi: 23 & 24 Agustus 2025  \n- Pengumuman Hasil Seleksi: 25 Agustus 2025  \n- Daftar Ulang: 25 – 31 Agustus 2025",
+  "retrieval_metrics": {
+    "retrieval_time": 1.9650146961212158,
+    "num_retrieved": 4,
+    "retrieved_sources": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf"
+    ]
+  },
+  "answer_metrics": {
+    "answer_length": 564,
+    "semantic_similarity": 0.9468309666671421,
+    "rouge_1_f": 0.7578947318470916,
+    "rouge_2_f": 0.5588235244387977,
+    "rouge_l_f": 0.7578947318470916
+  },
+  "total_time": 13.012174606323242,
+  "retrieval_time": 1.9650146961212158,
+  "generation_time": 11.047159910202026
+}

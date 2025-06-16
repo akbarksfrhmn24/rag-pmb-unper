@@ -10,4 +10,4 @@ services:
     environment:
       - VECTOR_STORE_PATH=/app/data/chroma_db
       - CHUNK_SIZE=512
-      - OLLAMA_URL=http://localhost:11434
+      - GITHUB_API_KEY=

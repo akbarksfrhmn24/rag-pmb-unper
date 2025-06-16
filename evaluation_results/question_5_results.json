@@ -1,0 +1,28 @@
+{
+  "question": "Bagaimana cara melakukan pembayaran kuliah di Universitas Perjuangan Tasikmalaya?",
+  "generated_answer": "Berikut adalah langkah-langkah melakukan pembayaran kuliah di Universitas Perjuangan Tasikmalaya (Unper):\n\n1. **Pilih Metode Pembayaran**  \n   Setelah Anda diterima sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya, masuk ke sistem PMB (pmb.unper.ac.id) menggunakan akun yang telah Anda buat. Pilih metode pembayaran yang tersedia (biasanya terdapat dua metode), dan pastikan Anda memahami perbedaan antara metode tersebut.\n\n2. **Konfirmasi Pilihan Anda**  \n   Setelah menentukan metode pembayaran, jangan lupa mencentang pernyataan yang tersedia di dalam sistem sebagai bentuk kesepakatan. Pastikan juga Anda telah yakin dengan metode pembayaran yang dipilih.\n\n3. **Dapatkan Informasi Pembayaran**  \n   Setelah berhasil memilih metode, sistem akan menyediakan detail informasi terkait batas waktu pembayaran dan langkah-langkah selanjutnya. Informasi ini juga akan mencantumkan besarnya biaya yang harus dibayarkan sesuai dengan program studi yang Anda pilih.\n\n4. **Lakukan Pembayaran**  \n   Anda dapat melakukan pembayaran melalui metode yang tersedia, baik melalui transfer bank, fasilitas pembayaran online, atau langsung ke loket pembayaran di universitas. Pastikan Anda melakukan pembayaran sebelum batas waktu yang ditentukan untuk menghindari pembatalan registrasi.\n\n5. **Simpan Bukti Pembayaran**  \n   Setelah pembayaran dilakukan, simpan bukti pembayaran Anda (seperti struk transfer atau tanda bukti lainnya) untuk keperluan proses verifikasi.\n\n6. **Verifikasi Pembayaran & Berkas Registrasi Ulang**  \n   Setelah pembayaran sukses, bawalah bukti pembayaran beserta dokumen lain yang diperlukan untuk proses registrasi ulang di kampus Universitas Perjuangan Tasikmalaya. Informasi mengenai dokumen tambahan yang perlu Anda bawa dapat Anda lihat di sistem PMB.\n\n**Catatan Tambahan**:  \n- Biaya awal masuk meliputi Biaya Pendaftaran Mahasiswa Baru (PMB), Biaya Kuliah Tiap Semester, dan Biaya Pembangunan (BPU).\n- Untuk Biaya Pembangunan (BPU) dapat dicicil selama semester 1 dan semester 2.  \n\nSemoga informasi ini membantu! Jika ada pertanyaan lebih lanjut, jangan ragu untuk menghubungi tim PMB melalui email di **pmb@unper.ac.id**. 😊",
+  "expected_answer": "Pembayaran dapat dilakukan menggunakan Virtual Account (VA) BNI, melalui ATM, Mobile Banking, Internet Banking, atau datang langsung ke Bank BNI. Berikut langkah-langkahnya:\n\n1. **Pilih Metode Pembayaran**: Setelah memilih program studi, Anda akan diberikan pilihan metode pembayaran.\n2. **Dapatkan Nomor Virtual Account (VA)**: Setelah memilih metode pembayaran, Anda akan mendapatkan nomor VA yang digunakan untuk melakukan pembayaran.\n3. **Lakukan Pembayaran**: Gunakan nomor VA tersebut untuk melakukan pembayaran melalui:\n   - ATM BNI\n   - Mobile Banking BNI\n   - Internet Banking BNI\n   - Datang langsung ke Bank BNI terdekat\n4. **Simpan Bukti Pembayaran**: Setelah melakukan pembayaran, simpan bukti pembayaran sebagai referensi dan untuk proses verifikasi.",
+  "retrieval_metrics": {
+    "retrieval_time": 0.09989428520202637,
+    "num_retrieved": 4,
+    "retrieved_sources": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0
+  },
+  "answer_metrics": {
+    "answer_length": 2156,
+    "semantic_similarity": 0.6908022786389563,
+    "rouge_1_f": 0.3045267449772224,
+    "rouge_2_f": 0.06321838705459794,
+    "rouge_l_f": 0.2962962923023252
+  },
+  "total_time": 77.58341026306152,
+  "retrieval_time": 0.09989428520202637,
+  "generation_time": 77.4835159778595
+}

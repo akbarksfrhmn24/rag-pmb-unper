@@ -1,27 +1,37 @@
 [
   {
-    "question": "Bagaimana cara mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
-    "expected_answer": "Untuk mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya, silakan ikuti prosedur pendaftaran resmi melalui website resmi universitas atau datang langsung ke loket pendaftaran.",
-    "ground_truth_docs": []
-  },
-  {
     "question": "Kapan jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
-    "expected_answer": "Jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya biasanya dimulai pada awal tahun untuk periode tahun akademik berikutnya.",
-    "ground_truth_docs": []
+    "expected_answer": "Jadwal Penerimaan Mahasiswa Baru Universitas Perjuangan Tasikmalaya Tahun Akademik 2025/2026 adalah sebagai berikut:Gelombang 1 \n- Pendaftaran: 01 Februari – 02 Mei 2025  \n- Seleksi: 03 & 04 Mei 2025  \n- Pengumuman Hasil Seleksi: 05 Mei 2025  \n- Daftar Ulang: 05 Mei – 12 Juli 2025  \n\n Gelombang 2 \n- Pendaftaran: 06 Mei – 18 Juli 2025  \n- Seleksi: 19 & 20 Juli 2025  \n- Pengumuman Hasil Seleksi: 21 Juli 2025  \n- Daftar Ulang: 21 Juli – 16 Agustus 2025  \n\n Gelombang 3 \n- Pendaftaran: 29 Juli – 22 Agustus 2025  \n- Seleksi: 23 & 24 Agustus 2025  \n- Pengumuman Hasil Seleksi: 25 Agustus 2025  \n- Daftar Ulang: 25 – 31 Agustus 2025",
+    "ground_truth_docs": [
+      "fce77a7d74f64a85b0d0c6ca0d7a4d76_JADWAL PENERIMAAN.pdf"
+    ]
   },
   {
-    "question": "Berapa biaya kuliah di Universitas Perjuangan Tasikmalaya?",
-    "expected_answer": "Biaya kuliah di Universitas Perjuangan Tasikmalaya bervariasi berdasarkan program studi yang dipilih. Untuk informasi lebih detail, silakan cek informasi biaya kuliah di website resmi universitas.",
-    "ground_truth_docs": []
+    "question": "Bagaimana cara mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Untuk mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya (Unper), Anda dapat mengikuti panduan berikut:\n\n1. Buka Website Pendaftaran  \n   Akses halaman pendaftaran online Universitas Perjuangan Tasikmalaya di http://pmb.unper.ac.id.\n\n2. Membuat Akun Baru  \n   - Pilih menu Buat Akun Baru.\n   - Isikan semua field data diri sesuai dengan informasi pribadi Anda. Pastikan semua data yang diinput benar dan valid, karena data ini tidak bisa diubah sampai Anda dinyatakan lulus dan menjadi mahasiswa/i Unper (kecuali password).  \n   - Klik tombol Buat Akun untuk menyelesaikan tahap ini.\n\n3. Pilih Program Studi dan Pembayaran  \n   - Setelah berhasil membuat akun, pilih program studi yang diinginkan berdasarkan minat Anda.  \n   - Lakukan proses pemilihan metode pembayaran sesuai dengan ketentuan yang berlaku.  \n   - Informasi biaya pendidikan perlu diperhatikan sesuai dengan program studi yang dipilih, termasuk Biaya PMB, Biaya Kuliah per Semester, dan Biaya Pembangunan (BPU).\n\n4. Menyelesaikan Pembayaran  \n   - Setelah memilih metode pembayaran, Anda akan mendapatkan informasi total nominal yang harus dibayarkan, batas waktu pembayaran, dan dokumen yang harus dibawa untuk verifikasi.  \n   - Lakukan pembayaran sebelum batas waktu yang ditentukan.\n\n5. Registrasi Ulang dan Verifikasi Berkas  \n   - Setelah pembayaran selesai, datang ke kampus Universitas Perjuangan Tasikmalaya sesuai jadwal yang ditentukan.  \n   - Bawa dokumen-dokumen yang diminta untuk proses verifikasi berkas dan penyelesaian registrasi ulang.",
+    "ground_truth_docs": [
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf"
+    ]
   },
   {
-    "question": "Apa saja program studi yang tersedia di Universitas Perjuangan Tasikmalaya?",
-    "expected_answer": "Universitas Perjuangan Tasikmalaya menawarkan berbagai program studi di berbagai fakultas. Untuk daftar lengkap program studi, silakan cek informasi di website resmi universitas.",
-    "ground_truth_docs": []
+    "question": "Boleh lihat rincian biaya kuliah per semester untuk jurusan Teknik Informatika?",
+    "expected_answer": "berikut rincian biaya kuliah per semester untuk jurusan Teknik Informatika di Universitas Perjuangan Tasikmalaya untuk Tahun Akademik 2025/2026:\n\n- Biaya Kuliah Tiap Semester: Rp. 4.190.000  \n- Biaya PMB: Rp. 1.357.000  \n- Biaya Pembangunan (BPU): Rp. 3.000.000 (dibayarkan sekali selama masa kuliah, dapat dicicil selama semester 1 dan 2)  \n- Total Biaya Awal Masuk: Rp. 8.547.000  \n- Minimal Biaya Daftar Ulang: Rp. 4.621.000",
+    "ground_truth_docs": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf"
+    ]
   },
   {
-    "question": "Bagaimana prosedur pembayaran biaya kuliah di Universitas Perjuangan Tasikmalaya?",
-    "expected_answer": "Pembayaran biaya kuliah di Universitas Perjuangan Tasikmalaya dapat dilakukan melalui bank-bank yang telah bekerja sama dengan universitas. Detail prosedur pembayaran dapat ditemukan di panduan mahasiswa baru.",
-    "ground_truth_docs": []
+    "question": "Di Universitas Perjuangan ada fakultas dan program studi apa saja?",
+    "expected_answer": "Di Universitas Perjuangan Tasikmalaya (Unper), berikut adalah daftar fakultas dan program studi beserta jenjang dan akreditasinya untuk Tahun Akademik 2025/2026:\n\n 1. Fakultas Keguruan dan Ilmu Pendidikan**\n- Pendidikan Bahasa Inggris (S1, Akreditasi: Baik Sekali)  \n- Pendidikan Guru Sekolah Dasar (PGSD) (S1, Akreditasi: Baik Sekali)  \n\n 2. Fakultas Ekonomi dan Bisnis \n- Manajemen (S1, Akreditasi: Baik Sekali)  \n- Akuntansi (S1, Akreditasi: Baik Sekali)  \n- Bisnis Digital (S1, Akreditasi: Baik) \n- Hukum (S1, Akreditasi: Baik) \n- Perhotelan (D3, Akreditasi: B) \n\n 4. Fakultas Teknik \n- Teknik Informatika (S1, Akreditasi: Baik Sekali)  \n- Teknik Sipil (S1, Akreditasi: Baik)  \n\n 5. Fakultas Ilmu Kesehatan\n- Farmasi (S1, Akreditasi: Baik Sekali)  \n\n 6. Fakultas Pertanian\n- Agribisnis (S1, Akreditasi: Baik Sekali)  \n- Agroteknologi Pertanian (S1, Akreditasi: Baik)  \n- Peternakan (S1, Akreditasi: Baik Sekali) \n\nSemua program studi telah terakreditasi oleh BAN-PT/LAM. Program-program dengan akreditasi “BAIK” sedang dalam proses re-akreditasi untuk menjadi “BAIK SEKALI”.",
+    "ground_truth_docs": [
+      "29e482c7d3154ff2a60fc7e7c940e16c_INFORMASI PROGRAM STUDI.pdf"
+    ]
+  },
+  {
+    "question": "Bagaimana cara melakukan pembayaran kuliah di Universitas Perjuangan Tasikmalaya?",
+    "expected_answer": "Pembayaran dapat dilakukan menggunakan Virtual Account (VA) BNI, melalui ATM, Mobile Banking, Internet Banking, atau datang langsung ke Bank BNI. Berikut langkah-langkahnya:\n\n1. **Pilih Metode Pembayaran**: Setelah memilih program studi, Anda akan diberikan pilihan metode pembayaran.\n2. **Dapatkan Nomor Virtual Account (VA)**: Setelah memilih metode pembayaran, Anda akan mendapatkan nomor VA yang digunakan untuk melakukan pembayaran.\n3. **Lakukan Pembayaran**: Gunakan nomor VA tersebut untuk melakukan pembayaran melalui:\n   - ATM BNI\n   - Mobile Banking BNI\n   - Internet Banking BNI\n   - Datang langsung ke Bank BNI terdekat\n4. **Simpan Bukti Pembayaran**: Setelah melakukan pembayaran, simpan bukti pembayaran sebagai referensi dan untuk proses verifikasi.",
+    "ground_truth_docs": [
+      "6fc21de309b64d61a7c416af5f10b214_PETUNJUK PEMBAYARAN KEUANGAN.pdf"
+    ]
   }
 ]

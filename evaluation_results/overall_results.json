@@ -1,0 +1,10 @@
+{
+  "num_questions": 5,
+  "avg_retrieval_time": 0.4761392116546631,
+  "avg_total_time": 26.455062866210938,
+  "avg_precision": 0.16666666666666666,
+  "avg_recall": 0.4,
+  "avg_f1": 0.2333333333333333,
+  "avg_semantic_similarity": 0.88778426669782,
+  "avg_rouge_l": 0.4738499000152375
+}

@@ -3,7 +3,7 @@ from app.vector_store import get_vector_store
 from app.llm_service import query_openai
 from app.embedding import LocalEmbedding  # Assuming you're using LocalEmbedding for embeddings
 
-def answer_query(question: str, k: int = 4) -> dict:
+def answer_query(question: str, k: int = 7) -> dict:
     # Retrieve the vector store (Chroma or your chosen vector store)
     vector_store = get_vector_store()
     
@@ -22,7 +22,7 @@ def answer_query(question: str, k: int = 4) -> dict:
         citations.append(doc.metadata.get("source", "unknown"))
     
     prompt = (
-        f"Kamu adalah Customer Service online yang bertugas untuk melayani calon mahasiswa baru Universitas Perjuangan Tasikmalaya:\n\n"
+        f"Kamu adalah Customer Service online yang bertugas membantu menjawab pertanyaan seputar Penerimaan Mahasiswa Baru (PMB) Universitas Perjuangan Tasikmalaya (Unper):\n\n"
         f"Context:\n{context}\n"
         f"Question: {question}\n"
         f"Answer:"

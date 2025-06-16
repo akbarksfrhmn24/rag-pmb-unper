@@ -1,0 +1,28 @@
+{
+  "question": "Boleh lihat rincian biaya kuliah per semester untuk jurusan Teknik Informatika?",
+  "generated_answer": "Tentu! Berikut adalah rincian biaya kuliah per semester untuk jurusan **Teknik Informatika** di Universitas Perjuangan Tasikmalaya (Unper) Tahun Akademik 2025/2026:\n\n- **Biaya Kuliah Tiap Semester**: Rp 4.190.000  \n- **Biaya PMB**: Rp 1.357.000 (dibayarkan hanya sekali pada awal masuk)  \n- **Biaya Pembangunan (BPU)**: Rp 3.000.000 (dibayarkan hanya sekali dan dapat dicicil selama semester 1 dan 2)  \n- **Total Biaya Awal Masuk**: Rp 8.547.000  \n- **Minimal Biaya Daftar Ulang**: Rp 4.621.000  \n\nJika ada pertanyaan atau informasi lainnya yang Anda butuhkan, jangan ragu untuk bertanya ya! 😊",
+  "expected_answer": "berikut rincian biaya kuliah per semester untuk jurusan Teknik Informatika di Universitas Perjuangan Tasikmalaya untuk Tahun Akademik 2025/2026:\n\n- Biaya Kuliah Tiap Semester: Rp. 4.190.000  \n- Biaya PMB: Rp. 1.357.000  \n- Biaya Pembangunan (BPU): Rp. 3.000.000 (dibayarkan sekali selama masa kuliah, dapat dicicil selama semester 1 dan 2)  \n- Total Biaya Awal Masuk: Rp. 8.547.000  \n- Minimal Biaya Daftar Ulang: Rp. 4.621.000",
+  "retrieval_metrics": {
+    "retrieval_time": 0.10958099365234375,
+    "num_retrieved": 4,
+    "retrieved_sources": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "29e482c7d3154ff2a60fc7e7c940e16c_INFORMASI PROGRAM STUDI.pdf",
+      "a24162850a9c477596fe3e5340a90899_INFORMASI FASILITAS KAMPUS.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf"
+    ],
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1_score": 0.5
+  },
+  "answer_metrics": {
+    "answer_length": 593,
+    "semantic_similarity": 0.9577792621394792,
+    "rouge_1_f": 0.6333333284722222,
+    "rouge_2_f": 0.4999999950865652,
+    "rouge_l_f": 0.6333333284722222
+  },
+  "total_time": 11.283886909484863,
+  "retrieval_time": 0.10958099365234375,
+  "generation_time": 11.17430591583252
+}

@@ -1,0 +1,28 @@
+{
+  "question": "Bagaimana cara mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya?",
+  "generated_answer": "Berikut adalah langkah-langkah untuk mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya:\n\n1. **Buka Situs PMB Online**  \n   - Akses laman resmi penerimaan mahasiswa baru di [pmb.unper.ac.id](http://pmb.unper.ac.id).\n\n2. **Buat Akun Baru**  \n   - Pilih menu **\"Buat Akun Baru\"**.  \n   - Isikan data diri dengan benar dan valid, sesuai informasi pribadi Anda.  \n   - Harap diperhatikan bahwa data yang dimasukkan tidak dapat diubah setelah Anda dinyatakan lulus dan menjadi mahasiswa/i UNPER, kecuali password.  \n   - Setelah selesai, klik tombol **\"Buat Akun\"**.\n\n3. **Isi Formulir Online**  \n   - Login ke akun yang telah dibuat dan lengkapi formulir pendaftaran secara online.\n\n4. **Kirim Berkas Pendaftaran**  \n   - Kirimkan dokumen persyaratan (*scan* berkas) melalui email ke **pmb@unper.ac.id**:  \n     a. Foto berwarna terbaru ukuran 4x6  \n     b. Ijazah atau Surat Keterangan Lulus  \n     c. Transkrip nilai  \n     d. KTP atau Kartu Keluarga (KK).\n\n5. **Pilih Gelombang Pendaftaran**  \n   - Pilih gelombang pendaftaran sesuai jadwal:  \n     - **Gelombang 1**: 01 Februari – 02 Mei 2025  \n     - **Gelombang 2**: 06 Mei – 18 Juli 2025  \n     - **Gelombang 3**: 29 Juli – 22 Agustus 2025.\n\n6. **Ikuti Seleksi**  \n   - Ikuti seleksi sesuai jadwal gelombang yang dipilih:  \n     - Gelombang 1: 03 & 04 Mei 2025  \n     - Gelombang 2: 19 & 20 Juli 2025  \n     - Gelombang 3: 23 & 24 Agustus 2025.  \n\n7. **Pengumuman Hasil Seleksi**  \n   - Pantau hasil seleksi sesuai jadwal:  \n     - Gelombang 1: 05 Mei 2025  \n     - Gelombang 2: 21 Juli 2025  \n     - Gelombang 3: 25 Agustus 2025.\n\n8. **Registrasi Ulang dan Pembayaran**  \n   - Setelah dinyatakan lulus, pilih metode pembayaran biaya awal dan lakukan pembayaran sesuai instruksi yang diberikan.  \n   - Perhatikan batas waktu pembayaran yang akan diinformasikan setelah memilih metode pembayaran.  \n   - Bawa berkas yang diperlukan untuk proses verifikasi registrasi ulang di kampus.\n\nJika ada pertanyaan lebih lanjut, Anda dapat menghubungi bagian PMB melalui email **pmb@unper.ac.id**. Semoga sukses! 😊",
+  "expected_answer": "Untuk mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya (Unper), Anda dapat mengikuti panduan berikut:\n\n1. Buka Website Pendaftaran  \n   Akses halaman pendaftaran online Universitas Perjuangan Tasikmalaya di http://pmb.unper.ac.id.\n\n2. Membuat Akun Baru  \n   - Pilih menu Buat Akun Baru.\n   - Isikan semua field data diri sesuai dengan informasi pribadi Anda. Pastikan semua data yang diinput benar dan valid, karena data ini tidak bisa diubah sampai Anda dinyatakan lulus dan menjadi mahasiswa/i Unper (kecuali password).  \n   - Klik tombol Buat Akun untuk menyelesaikan tahap ini.\n\n3. Pilih Program Studi dan Pembayaran  \n   - Setelah berhasil membuat akun, pilih program studi yang diinginkan berdasarkan minat Anda.  \n   - Lakukan proses pemilihan metode pembayaran sesuai dengan ketentuan yang berlaku.  \n   - Informasi biaya pendidikan perlu diperhatikan sesuai dengan program studi yang dipilih, termasuk Biaya PMB, Biaya Kuliah per Semester, dan Biaya Pembangunan (BPU).\n\n4. Menyelesaikan Pembayaran  \n   - Setelah memilih metode pembayaran, Anda akan mendapatkan informasi total nominal yang harus dibayarkan, batas waktu pembayaran, dan dokumen yang harus dibawa untuk verifikasi.  \n   - Lakukan pembayaran sebelum batas waktu yang ditentukan.\n\n5. Registrasi Ulang dan Verifikasi Berkas  \n   - Setelah pembayaran selesai, datang ke kampus Universitas Perjuangan Tasikmalaya sesuai jadwal yang ditentukan.  \n   - Bawa dokumen-dokumen yang diminta untuk proses verifikasi berkas dan penyelesaian registrasi ulang.",
+  "retrieval_metrics": {
+    "retrieval_time": 0.12738633155822754,
+    "num_retrieved": 4,
+    "retrieved_sources": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf"
+    ],
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666
+  },
+  "answer_metrics": {
+    "answer_length": 2076,
+    "semantic_similarity": 0.9026289620034798,
+    "rouge_1_f": 0.3892215520475815,
+    "rouge_2_f": 0.1514476566094416,
+    "rouge_l_f": 0.3652694562391983
+  },
+  "total_time": 17.67931818962097,
+  "retrieval_time": 0.12738633155822754,
+  "generation_time": 17.551931858062744
+}

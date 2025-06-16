@@ -1,0 +1,28 @@
+{
+  "question": "Di Universitas Perjuangan ada fakultas dan program studi apa saja?",
+  "generated_answer": "Berikut adalah daftar fakultas dan program studi yang tersedia di Universitas Perjuangan Tasikmalaya (Unper) beserta akreditasinya untuk Tahun Akademik 2025/2026:\n\n### **Fakultas Keguruan dan Ilmu Pendidikan**\n1. **Pendidikan Bahasa Inggris** - Akreditasi: Baik Sekali (S1)  \n2. **Pendidikan Guru Sekolah Dasar (PGSD)** - Akreditasi: Baik Sekali (S1)\n\n### **Fakultas Ekonomi dan Bisnis**\n1. **Manajemen** - Akreditasi: Baik Sekali (S1)  \n2. **Akuntansi** - Akreditasi: Baik Sekali (S1)  \n3. **Bisnis Digital** - Akreditasi: Baik (S1)\n\n### **Fakultas Hukum**\n1. **Hukum** - Akreditasi: Baik (S1)\n\n### **Fakultas Teknik**\n1. **Teknik Informatika** - Akreditasi: Baik Sekali (S1)  \n2. **Teknik Sipil** - Akreditasi: Baik (S1)\n\n### **Fakultas Ilmu Kesehatan**\n(Fakultas ini hanya disebutkan sebagai kategori tanpa detail program studi dalam informasi yang tersedia.)\n\n### **Program Diploma**\n1. **Perhotelan** - Akreditasi: B (D3)\n\nJika Anda memerlukan informasi lebih lanjut mengenai program studi, akreditasi, atau lainnya, jangan ragu untuk menanyakan! 😊",
+  "expected_answer": "Di Universitas Perjuangan Tasikmalaya (Unper), berikut adalah daftar fakultas dan program studi beserta jenjang dan akreditasinya untuk Tahun Akademik 2025/2026:\n\n 1. Fakultas Keguruan dan Ilmu Pendidikan**\n- Pendidikan Bahasa Inggris (S1, Akreditasi: Baik Sekali)  \n- Pendidikan Guru Sekolah Dasar (PGSD) (S1, Akreditasi: Baik Sekali)  \n\n 2. Fakultas Ekonomi dan Bisnis \n- Manajemen (S1, Akreditasi: Baik Sekali)  \n- Akuntansi (S1, Akreditasi: Baik Sekali)  \n- Bisnis Digital (S1, Akreditasi: Baik) \n- Hukum (S1, Akreditasi: Baik) \n- Perhotelan (D3, Akreditasi: B) \n\n 4. Fakultas Teknik \n- Teknik Informatika (S1, Akreditasi: Baik Sekali)  \n- Teknik Sipil (S1, Akreditasi: Baik)  \n\n 5. Fakultas Ilmu Kesehatan\n- Farmasi (S1, Akreditasi: Baik Sekali)  \n\n 6. Fakultas Pertanian\n- Agribisnis (S1, Akreditasi: Baik Sekali)  \n- Agroteknologi Pertanian (S1, Akreditasi: Baik)  \n- Peternakan (S1, Akreditasi: Baik Sekali) \n\nSemua program studi telah terakreditasi oleh BAN-PT/LAM. Program-program dengan akreditasi “BAIK” sedang dalam proses re-akreditasi untuk menjadi “BAIK SEKALI”.",
+  "retrieval_metrics": {
+    "retrieval_time": 0.07881975173950195,
+    "num_retrieved": 4,
+    "retrieved_sources": [
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "627dd9e7e1f14fe2936be9037d0b898a_PANDUAN PENDAFTARAN MAHASISWA.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf",
+      "9aef6fd9fad3495fa13455011b2b06b0_INFORMASI BIAYA PENDIDIKAN.pdf"
+    ],
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0
+  },
+  "answer_metrics": {
+    "answer_length": 1053,
+    "semantic_similarity": 0.9408798640400424,
+    "rouge_1_f": 0.3670886026077552,
+    "rouge_2_f": 0.16981131575516215,
+    "rouge_l_f": 0.31645569121535017
+  },
+  "total_time": 12.716524362564087,
+  "retrieval_time": 0.07881975173950195,
+  "generation_time": 12.637704610824585
+}

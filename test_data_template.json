@@ -1,0 +1,16 @@
+[
+  {
+    "question": "Sample question 1?",
+    "expected_answer": "Sample expected answer 1.",
+    "ground_truth_docs": [
+      "Optional: known relevant document names or chunks"
+    ]
+  },
+  {
+    "question": "Sample question 2?",
+    "expected_answer": "Sample expected answer 2.",
+    "ground_truth_docs": [
+      "Optional: known relevant document names or chunks"
+    ]
+  }
+]

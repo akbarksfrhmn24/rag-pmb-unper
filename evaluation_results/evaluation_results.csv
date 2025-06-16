@@ -1,0 +1,6 @@
+Question,Retrieval Time (s),Generation Time (s),Total Time (s),Precision,Recall,F1 Score,Semantic Similarity,ROUGE-L F1
+Kapan jadwal penerimaan mahasiswa baru di Universitas Perjuangan Tasikmalaya?,1.9650,11.0472,13.0122,0.0000,0.0000,0.0000,0.9468,0.7579
+Bagaimana cara mendaftar sebagai mahasiswa baru di Universitas Perjuangan Tasikmalaya?,0.1274,17.5519,17.6793,0.5000,1.0000,0.6667,0.9026,0.3653
+Boleh lihat rincian biaya kuliah per semester untuk jurusan Teknik Informatika?,0.1096,11.1743,11.2839,0.3333,1.0000,0.5000,0.9578,0.6333
+Di Universitas Perjuangan ada fakultas dan program studi apa saja?,0.0788,12.6377,12.7165,0.0000,0.0000,0.0000,0.9409,0.3165
+Bagaimana cara melakukan pembayaran kuliah di Universitas Perjuangan Tasikmalaya?,0.0999,77.4835,77.5834,0.0000,0.0000,0.0000,0.6908,0.2963
