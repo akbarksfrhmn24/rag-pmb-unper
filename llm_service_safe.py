@@ -1,5 +1,8 @@
-from openai import AzureOpenAI
+"""
+Alternative LLM service implementation with better error handling
+"""
 import os
+import sys
 from dotenv import load_dotenv
 
 def init_client():
@@ -13,6 +16,9 @@ def init_client():
         if not api_key:
             raise ValueError("OPENAI_API_KEY not found in environment variables")
         
+        # Import and create client
+        from openai import AzureOpenAI
+        
         client = AzureOpenAI(
             azure_endpoint="https://rag-llm-api.openai.azure.com/",
             api_key=api_key,
@@ -25,15 +31,9 @@ def init_client():
         print(f"Failed to initialize OpenAI client: {e}")
         return None
 
-def query_openai(prompt: str) -> str:
+def query_openai_safe(prompt: str) -> str:
     """
-    Query Azure OpenAI with the given prompt - Safe implementation
-    
-    Args:
-        prompt (str): The user prompt to send to the model
-        
-    Returns:
-        str: The response from the model
+    Safe version of OpenAI query with extensive error handling
     """
     if not prompt or not prompt.strip():
         return "Error: Empty prompt provided"
@@ -44,33 +44,40 @@ def query_openai(prompt: str) -> str:
         return "Error: Failed to initialize OpenAI client"
     
     try:
-        # Limit prompt length to prevent memory issues
-        max_prompt_length = 3000
-        if len(prompt) > max_prompt_length:
-            prompt = prompt[:max_prompt_length] + "..."
+        # Limit prompt length
+        max_length = 3000
+        if len(prompt) > max_length:
+            prompt = prompt[:max_length] + "..."
         
+        # Make the API call with conservative settings
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": "Kamu adalah asisten AI yang membantu menjawab pertanyaan seputar Penerimaan Mahasiswa Baru (PMB) Universitas Perjuangan Tasikmalaya (Unper)."},
+                {"role": "system", "content": "Kamu adalah asisten AI yang membantu menjawab pertanyaan seputar PMB Universitas Perjuangan Tasikmalaya."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=800,  # Conservative token limit
+            max_tokens=500,  # Reduced token limit
             temperature=0.7,
-            timeout=20  # Reasonable timeout
+            timeout=15  # Shorter timeout
         )
         
         if response and response.choices and len(response.choices) > 0:
             content = response.choices[0].message.content
             return content.strip() if content else "No response generated"
         else:
-            return "Error: No response from the model"
+            return "Error: No response received from the model"
             
     except Exception as e:
         error_msg = str(e)
-        print(f"Error in query_openai: {error_msg}")
-        return f"Error: Failed to get response from AI model - {error_msg[:100]}..."
+        print(f"API Error: {error_msg}")
+        return f"Error: Failed to get response - {error_msg[:100]}..."
     
     finally:
-        # Clean up to prevent memory issues
+        # Clean up
         client = None
+
+if __name__ == "__main__":
+    # Test the safe implementation
+    test_prompt = "Apa itu PMB Unper?"
+    result = query_openai_safe(test_prompt)
+    print(f"Response: {result}")
